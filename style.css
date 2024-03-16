@@ -1,0 +1,528 @@
+/*https://www.canva.com/design/DAF2p5JGz7c/HYClHuhXKPYCbK9MYgN2eA/edit?utm_content=DAF2p5JGz7c&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton*/
+
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Dancing+Script&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 2em;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+/* ******************* NAVBAR ******************* */
+nav {
+  overflow: hidden;
+  background-color: #FFFAE1;
+  position: fixed;
+  width: 100%;
+  opacity: 0.9;
+  height: 65px;
+}
+#logo {
+  float: left;
+  margin: 10px;
+
+}
+#logo img{
+height: 40px;
+}
+#logo p{
+  font-family: 'Poppins', sans-serif;
+  /*pas sur de garder cette police la*/
+  margin-left: 15px;
+  margin-top: 10px;
+  float: right;
+  font-size: 22px;
+
+}
+header li {
+  float: right;
+  font-size: 1.2em;
+}
+header li a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 18px 16px;
+}
+#logo {
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  float: left;
+}
+/* **************** IMAGE PRINCIPALE ************* */
+#imagePrincipale {
+  padding-top: 60px;
+  background: url(media/IMG_0821.JPG) no-repeat fixed 50% 50%;
+  background-size: cover;
+  height: 799px;
+}
+h1 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  color: antiquewhite;
+  font-size: 6em;
+  margin-top: 100px;
+  text-shadow: 1px 3px 2px black;
+  -webkit-text-stroke: 4px black; /* Ajustez l'épaisseur de la bordure noire autour du texte */
+  text-stroke: 2px black;
+}
+
+#premierTrait {
+  height: 1px;
+  width: 25%;
+  margin: -3px auto;
+  background-color: #FFFAE1;
+  box-shadow: 1px 3px 2px black;
+}
+
+h3 {
+  text-align: center;
+  color: antiquewhite;
+  font-size: 3em;
+  text-shadow: 1px 3px 2px black;
+}
+
+/* ******************* PRESENTATION MUCO RELAIS ET MUCOVISCIDOSE ******************** */
+.container {
+  display: flex;
+  height: 1200px;
+  background-color: #FFFAE1;
+  padding: 1px 2%;
+}
+
+.left-section,
+.right-section {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.left-section h2,
+.right-section h2 {
+  font-family: 'Poppins', sans-serif;
+  color: antiquewhite;
+  font-size: 3em !important; /* Ajustez la taille de la police selon vos besoins */
+  margin-top: 100px;
+  text-shadow: 1px 3px 2px black;
+  -webkit-text-stroke: 1.5px black; /* Ajustez l'épaisseur de la bordure noire autour du texte */
+  text-stroke: 2px black;
+}
+
+.left-section p,
+.right-section p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2em !important;
+}
+
+.left-section img,
+.right-section img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/******************** EXPLICATION MUCO RELAIS *********************/
+
+.presentation_coureur {
+  background-color: #FFFAE1;
+  height: 1000px;
+  
+  padding: 1px 2%;
+}
+
+.section_centre img{
+  max-width: 100%; /* La largeur maximale de l'image est de 100% de sa section parente */
+  height: auto; /* Cela garantit que l'aspect ratio de l'image est préservé */
+  display: block; /* Assurez-vous que l'image se comporte comme un élément de bloc */
+  margin: 0 auto; /* Centrer l'image horizontalement dans sa section */
+
+
+}
+.section_centre h2 {
+  font-family: 'VotrePolice'; /* Remplacez 'VotrePolice' par le nom de la police que vous souhaitez utiliser */
+  font-size: 30px; /* Taille de la police pour les titres */
+}
+
+.section_centre p {
+  font-family: 'Poppins', sans-serif;  /* Remplacez 'VotrePolice' par le nom de la police que vous souhaitez utiliser */
+  font-size: 24px; /* Taille de la police pour les titres */
+  text-align: center;
+}
+/* ******************* PARCOURS ******************** */
+
+.container2 {
+  background-color: #FFFAE1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 700px; /* utilise la hauteur de la fenêtre */
+}
+
+.left-image,
+.right-image {
+  flex: 1; /* occupe une part égale de l'espace disponible */
+  text-align: center; /* centre l'image horizontalement */
+}
+
+.left-image img,
+.right-image img {
+  max-width: 100%; /* assure que l'image ne dépasse pas la largeur du conteneur */
+  max-height: 80vh; /* limite la hauteur de l'image pour éviter le débordement */
+}
+
+/* ******************* BIG IMAGE ******************** */
+
+.imagea5 {
+  background-color: #FFFAE1;
+  height: 1300px;
+  
+  padding: 1px 2%;
+}
+
+.section_centre p{
+  font-family: 'Poppins', sans-serif; /* Remplacez 'VotrePolice' par le nom de la police que vous souhaitez utiliser */
+  font-size: 1.5em ; /* Taille de la police pour le texte */
+  margin-left: 400px ;
+  margin-right: 400px;
+}
+
+.section_centre h2 {
+  font-family: 'Poppins', sans-serif;
+  color: antiquewhite;
+  font-size: 3em ; /* Ajustez la taille de la police selon vos besoins */
+  text-shadow: 1px 3px 2px black;
+  -webkit-text-stroke: 1.5px black; /* Ajustez l'épaisseur de la bordure noire autour du texte */
+  text-stroke: 2px black;
+}
+
+
+
+.section_centre img{
+  width: 75%; /* La largeur maximale de l'image est de 100% de sa section parente */
+  height: auto; /* Cela garantit que l'aspect ratio de l'image est préservé */
+  display: block; /* Assurez-vous que l'image se comporte comme un élément de bloc */
+  margin: 0 auto; /* Centrer l'image horizontalement dans sa section */
+
+
+}
+
+
+
+
+/**************** PRESENTATION DE NOUS ***********************/
+.nous {
+  display: flex;
+  height: 1600px;
+  background-color: #FFFAE1;
+  padding: 1px 2%;
+}
+
+
+.left-section, .right-section {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.left-section h2, .right-section h2 {
+  font-family: 'Poppins', sans-serif;
+  color: antiquewhite;
+  font-size: 2em ; /* Ajustez la taille de la police selon vos besoins */ 
+  text-shadow: 1px 3px 2px black;
+  -webkit-text-stroke: 1.5px black; /* Ajustez l'épaisseur de la bordure noire autour du texte */
+  text-stroke: 2px black;
+  padding: 10px; /* Ajoute de l'espacement à l'intérieur de la bordure */
+}
+
+.left-section p, .right-section p {
+  font-family: 'Poppins', sans-serif; /* Remplacez 'VotrePolice' par le nom de la police que vous souhaitez utiliser */
+  font-size: 1em ; /* Taille de la police pour le texte */
+}
+
+.left-section img, .right-section img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+
+/* *************** test lou-anne ********************** */
+
+.louanne {
+  background-color: #FFFAE1;
+  height: 600px;
+  display: flex;
+  padding: 1px 2%;
+}
+
+.section-louanne p{
+  text-align: center;
+  font-family: 'Poppins', sans-serif; /* Remplacez 'VotrePolice' par le nom de la police que vous souhaitez utiliser */
+  font-size: 2em ; /* Taille de la police pour le texte */
+  margin-left: 400px ;
+  margin-right: 400px;
+}
+
+.section-louanne h2 {
+  
+  font-family: 'Poppins', sans-serif;
+  color: antiquewhite;
+  font-size: 3em ; /* Ajustez la taille de la police selon vos besoins */
+  text-shadow: 1px 3px 2px black;
+  -webkit-text-stroke: 1.5px black; /* Ajustez l'épaisseur de la bordure noire autour du texte */
+  text-stroke: 2px black;
+}
+
+
+
+.section-louanne img{
+  width: 13%; /* La largeur maximale de l'image est de 100% de sa section parente */
+  height: auto; /* Cela garantit que l'aspect ratio de l'image est préservé */
+  display: block; /* Assurez-vous que l'image se comporte comme un élément de bloc */
+  margin: 0 auto; /* Centrer l'image horizontalement dans sa section */
+
+
+}
+/* *************** redou et farou ********************** */
+.redouetfarou {
+  display: flex;
+  height: 1000px;
+  background-color: #FFFAE1;
+  padding: 1px 2%;
+}
+
+.left-section,
+.right-section {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.left-section h2{
+  font-family: 'Poppins', sans-serif;
+  color: antiquewhite;
+  font-size: 3em !important; /* Ajustez la taille de la police selon vos besoins */
+  margin-top: 100px;
+  text-shadow: 1px 3px 2px black;
+  -webkit-text-stroke: 1.5px black; /* Ajustez l'épaisseur de la bordure noire autour du texte */
+  text-stroke: 2px black;
+}
+
+.farou-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2em !important;
+}
+
+.redou-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2em !important;
+  margin-top: 200px;
+}
+
+
+.farou-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-top : 250px !important ;
+}
+
+.redou-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 290px !important;
+}
+
+
+
+/* *************** PRESENTATION DES PARTENAIRES ********************** */
+#presentation {
+  background-color: #FFFAE1;
+  padding: 10px 0px 100px 0;
+  align-items: center; /* Alignement vertical au centre */
+ /* Ajustez la marge selon vos besoins */
+
+
+}
+#texteIntro {
+  padding: 0px 20%;
+}
+#prestations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px 10%;  
+}
+.image1 h4 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-size: 1.8em;
+  margin: 15px;
+  font-weight: 300;
+}
+.image1 img {
+  border-radius: 10px;
+  box-shadow: 5px 5px 3px 1px rgba(0,0,0,0.7);
+  max-width: 100%;
+  
+}
+.image2 h4 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-size: 1.8em;
+  margin: 15px;
+  font-weight: 300;
+}
+.image2 img {
+  border-radius: 10px;
+  box-shadow: 5px 5px 3px 1px rgba(0,0,0,0.7);
+  max-width: 100%;
+}
+.image3 h4 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-size: 1.8em;
+  margin: 15px;
+  font-weight: 300;
+}
+.image3 img {
+  border-radius: 10px;
+  box-shadow: 5px 5px 3px 1px rgba(0,0,0,0.7);
+  max-width: 100%;
+}
+.imagesPrestations img:hover {
+  opacity: 0.5;
+  transform: scale(1.05);
+  transition: 0.6s ease-in-out;
+}
+
+#presentation2 {
+  background-color: #FFFAE1;
+  padding: 10px 0px 100px 0;
+  align-items: center; /* Alignement vertical au centre */
+ /* Ajustez la marge selon vos besoins */
+
+
+}
+#presentation3 {
+  background-color: #FFFAE1;
+  padding: 10px 0px 100px 0;
+  align-items: center; /* Alignement vertical au centre */
+ /* Ajustez la marge selon vos besoins */
+
+
+}
+#presentation4 {
+  background-color: #FFFAE1;
+  padding: 10px 0px 100px 0;
+  align-items: center; /* Alignement vertical au centre */
+ /* Ajustez la marge selon vos besoins */
+
+
+}
+#presentation5 {
+  background-color: #FFFAE1;
+  padding: 10px 0px 100px 0;
+  align-items: center; /* Alignement vertical au centre */
+ /* Ajustez la marge selon vos besoins */
+
+
+}
+
+
+
+
+/* ******************* FOOTER ******************** */
+footer {
+  background-color: #524A3A;
+  color: #FFFAE1;
+  padding: 20px 0 10px 0;
+  text-align: center;
+}
+form {
+  margin: 0 auto;
+  max-width: 900px;
+}
+input, textarea, button {
+  border: none;
+  width: 55%;
+  padding: 15px 10px;
+  margin: 1px 0;
+  font-size: 1.2em;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 8px;
+}
+textarea {
+  height: 100px;
+}
+button {
+  font-size: 1.5em;
+  background-color: #FFFAE1;
+}
+button:hover {
+  background-color: #e55039;
+  color: #FFFAE1;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+#deuxiemeTrait {
+  height: 1px;
+  width: 75%;
+  background-color: #FFFAE1;
+  margin: 60px auto;
+}
+#copyrightEtIcons {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 0 10%;
+}
+#copyright {
+  width: 50%;
+  text-align: left;
+  color: #FFFAE1;
+}
+#icons {
+  width: 50%;
+  text-align: right;
+}
+#icons a {
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 1.3em;
+  color: #FFFAE1;
+}
+#icons a:hover {
+  transform: scale(1.5);
+  transition: 0.1s;
+}
+
+
+
+
